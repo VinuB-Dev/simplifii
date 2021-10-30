@@ -11,3 +11,114 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.carousel {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 70%;
+  width: 500px;
+  max-height: 750px;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-zoomed {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 70%;
+  width: 1000px;
+  max-height: 1050px;
+  overflow: hidden;
+}
+
+.zoom:hover {
+  cursor: zoom-in;
+}
+
+.zoomed:hover {
+  cursor: zoom-out;
+  scale: 2x;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.container img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type='checkbox']:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 1rem;
+}
+
+.btn-complete {
+  background-color: rgb(51, 153, 85);
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+#left {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+#right {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}

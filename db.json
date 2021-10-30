@@ -1,0 +1,354 @@
+{
+  "scans": [
+    {
+      "image_id": "4608",
+      "url": "https://res.cloudinary.com/jaycee/image/upload/v1631175193/billImages/2021-09-04/tnuaotndwqxggcwyve5r.jpg",
+      "approved": null,
+      "remark": null,
+      "deleted": "1"
+    },
+    {
+      "image_id": "4864",
+      "url": "https://res.cloudinary.com/jaycee/image/upload/v1631590714/billImages/2021-08-24/duibp7kz6ralb5a1llye.jpg",
+      "approved": "1",
+      "remark": null,
+      "deleted": "1"
+    },
+    {
+      "image_id": "5120",
+      "url": "https://s3.ap-south-1.amazonaws.com/simplifii.android.app/files/1631867487502_1631867487453.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5376",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-11/11-09-20215002102/163210787457789IMG_20210920_084545.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5632",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-21/21-08-20214757268/16322412606653720210921_214927.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5888",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-22/22-09-20214439048/16324046809444995DD0BC8-F5D8-4FB4-952F-1849C9AF095A.jpeg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6144",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-12/12-08-20214328051/16325882716631612.8+Vado+to+Vado+Air+146.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6400",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-08/08-09-20214438997/163285130119192IMG_20210928_231705__01.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6656",
+      "url": "https://safex-simplifii.s3.ap-south-1.amazonaws.com/files/1633095277364_1633095277335.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6912",
+      "url": "https://s3.ap-south-1.amazonaws.com/simplifii.android.app/files/1633241996414_1633241996395.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7168",
+      "url": "https://safex-simplifii.s3.ap-south-1.amazonaws.com/files/1633444435175_1633444435146.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7424",
+      "url": "https://safex-simplifii.s3.ap-south-1.amazonaws.com/files/1633780148967_1633780148942.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7680",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-28/28-09-20214757268/16344858614799320211017_211955.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7936",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-05/05-10-20214439039/163480210613655IMG_20211021_131037.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "8192",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-14/14-09-20214439326/163501947462504Bus+-+Raj+to+Ahm+-+14+Sep'21.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "8448",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-13/13-10-20214757917/163527512440360IMG_20211027_003429.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "4609",
+      "url": "https://res.cloudinary.com/jaycee/image/upload/v1631175179/billImages/2021-09-04/voukzyklnev7o4uencw7.jpg",
+      "approved": "1",
+      "remark": null,
+      "deleted": "1"
+    },
+    {
+      "image_id": "4865",
+      "url": "https://res.cloudinary.com/jaycee/image/upload/v1631591105/billImages/2021-08-26/suwmpelfkqwp2vpphw29.jpg",
+      "approved": "1",
+      "remark": null,
+      "deleted": "1"
+    },
+    {
+      "image_id": "5121",
+      "url": "https://s3.ap-south-1.amazonaws.com/simplifii.android.app/files/1631867558428_1631867558397.jpg",
+      "approved": null,
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5377",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-11/11-09-20215002102/163210785593100IMG_20210920_084216.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5633",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-26/26-08-20215162921/163224697340466CRN5540937060.pdf",
+      "approved": null,
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5889",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-22/22-09-20214439048/163240469268840C1A063B2-A56F-421E-8D61-2EB1E628E647.jpeg",
+      "approved": null,
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6145",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-20/20-08-20214328051/16325885448797220.8-414.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6401",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-28/28-09-20214439347/163287591487753IMG_20210928_071047.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6657",
+      "url": "https://safex-simplifii.s3.ap-south-1.amazonaws.com/files/1633095297097_1633095297066.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6913",
+      "url": "https://safex-simplifii.s3.ap-south-1.amazonaws.com/files/1633242351253_1633242351145.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7169",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-21/21-08-20215159491/163344515213490IMG-20211005-WA0004.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7425",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-09/09-10-20214439335/163378323060533VIL_bill_9758131211_2021-10-04.pdf",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7681",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-28/28-09-20214757268/16344859133560720211017_212118.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7937",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-07/07-10-20214439039/163480249621035Screenshot_20211021-131754.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "8193",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-14/14-09-20214439326/163501948426085Ola+-+Rajkot+14th+Sep'21.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "8449",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-25/25-10-20214439347/163529097196016IMG_20211027_045552.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "4610",
+      "url": "https://res.cloudinary.com/jaycee/image/upload/v1631175193/billImages/2021-09-04/tnuaotndwqxggcwyve5r.jpg",
+      "approved": "1",
+      "remark": null,
+      "deleted": "1"
+    },
+    {
+      "image_id": "4866",
+      "url": "https://res.cloudinary.com/jaycee/image/upload/v1631591493/billImages/2021-09-04/c9euiihtugj3hep5cszo.jpg",
+      "approved": "1",
+      "remark": null,
+      "deleted": "1"
+    },
+    {
+      "image_id": "5122",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-31/31-08-20214439048/1631867878139785C60C581-3E96-47A1-8FB2-FE2699B01668.jpeg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5378",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-14/14-09-20215002102/163210841977403IMG_20210920_085642.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5634",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-26/26-08-20215162921/163224697340466CRN5540937060.pdf",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "5890",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-22/22-09-20214439048/163240470433323DF26B7D7-742E-4AB7-8296-74C11C5B09FC.jpeg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6146",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-20/20-08-20214328051/16325885578848320.8-556.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6402",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-28/28-09-20214439347/163287592574900IMG_20210928_071058.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6658",
+      "url": "https://safex-simplifii.s3.ap-south-1.amazonaws.com/files/1633095539274_1633095539243.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "6914",
+      "url": "https://safex-simplifii.s3.ap-south-1.amazonaws.com/files/1633242406789_1633242406677.jpg",
+      "approved": "0",
+      "remark": "safex-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7170",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-08-21/21-08-20215159491/163344515712836IMG-20211005-WA0003.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7426",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-09/09-10-20214959995/163378787920552IMG20211009191347.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7682",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-11/11-10-20214439201/163448670215281IMG-20211017-WA0002.jpeg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "7938",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-07/07-10-20214439039/163480253112719Screenshot_20211021-131824.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "8194",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-09-14/14-09-20214439326/163501950685967Ola+-++Ahm+14+Sep'21.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "8450",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/be12/2021-10-25/25-10-20214439347/163529098625597IMG_20211027_045602.jpg",
+      "approved": "0",
+      "remark": "unibic-simplifii",
+      "deleted": "1"
+    },
+    {
+      "image_id": "4611",
+      "url": "https://res.cloudinary.com/jaycee/image/upload/v1631175803/billImages/2021-09-05/qppqkm9r6vhuuntmnam1.jpg",
+      "approved": "1",
+      "remark": null,
+      "deleted": "1"
+    },
+    {
+      "image_id": "4867",
+      "url": "https://unibic-simplifii.s3.ap-south-1.amazonaws.com/claim_images/21-08-20214439375images1__7494.jpg",
+      "approved": "0",
+      "remark": null,
+      "deleted": "1"
+    }
+  ]
+}
