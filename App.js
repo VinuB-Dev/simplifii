@@ -1,9 +1,7 @@
 import axios from 'axios'
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState } from 'react'
 import { acceptRejectImage } from './services'
-import PrismaZoom from 'react-prismazoom'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+
 function App() {
   const [data, setData] = useState([])
   useEffect(() => {
@@ -25,7 +23,6 @@ function App() {
     setImageNo((imageNo) =>
       imageNo === data.length - 1 ? imageNo : imageNo + 1
     )
-    toast('Accepted')
   }
 
   function Reject() {
@@ -39,7 +36,6 @@ function App() {
     setImageNo((imageNo) =>
       imageNo === data.length - 1 ? imageNo : imageNo + 1
     )
-    toast('Rejected')
   }
 
   return (
@@ -56,20 +52,24 @@ function App() {
         <button className='btn' onClick={() => setImageNo(0)}>
           First
         </button>
-        [{imageNo + 1} of {data.length - 1}]
+        [{imageNo} of {data.length - 1}]
         <button className='btn' onClick={() => setImageNo(data.length - 1)}>
           Last
         </button>
       </div>
-      <div className='carousel'>
+      <input type='checkbox' id='zoomCheck' />
+      <div className={click === true ? 'carousel-zoomed' : 'carousel'}>
         <div
           className='image-container'
           id='imgs'
           onClick={() => setClick(!click)}
         >
-          <PrismaZoom>
-            <img src={data[imageNo]?.url} alt={data[imageNo]?.image_id} />
-          </PrismaZoom>
+          <label for='zoomCheck'>
+            <img
+              src={data[imageNo]?.url}
+              className={click === true ? 'zoomed' : 'zoom'}
+            />
+          </label>
         </div>
         <div class='buttons-container'>
           <button
@@ -109,7 +109,7 @@ function App() {
             position: 'absolute',
             textAlign: 'center',
             bottom: '0%',
-            left: '45%',
+            left: '40%',
             zIndex: '9999',
           }}
         >
@@ -136,14 +136,6 @@ function App() {
           )}
         </div>
       </div>
-      <ToastContainer
-        position='top-center'
-        autoClose={2000}
-        hideProgressBar={true}
-        newestOnTop={true}
-        closeOnClick
-        rtl={false}
-      />
     </div>
   )
 }

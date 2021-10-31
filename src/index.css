@@ -46,21 +46,8 @@ img {
   transition: transform 0.5s ease-in-out;
 }
 
-.carousel-zoomed {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  height: 70%;
-  width: 1000px;
-  max-height: 1050px;
-  overflow: hidden;
-}
-
-.zoom:hover {
+img:hover {
   cursor: zoom-in;
-}
-
-.zoomed:hover {
-  cursor: zoom-out;
-  scale: 2x;
 }
 
 input[type='checkbox'] {
@@ -71,11 +58,6 @@ input[type='checkbox'] {
   margin: 100px;
   transition: transform 0.25s ease;
   cursor: zoom-in;
-}
-
-input[type='checkbox']:checked ~ label > img {
-  transform: scale(2);
-  cursor: zoom-out;
 }
 
 .buttons-container {
