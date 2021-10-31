@@ -1,5 +1,7 @@
 import axios from 'axios'
+import { ImageWithZoom } from 'pure-react-carousel'
 import { useEffect, useState } from 'react'
+import { acceptRejectImage } from './services'
 
 function App() {
   const [data, setData] = useState([])
@@ -10,6 +12,33 @@ function App() {
   }, [])
   const [imageNo, setImageNo] = useState(0)
   const [click, setClick] = useState(false)
+
+  function Accept() {
+    acceptRejectImage({
+      image_id: data[imageNo].image_id,
+      application_id: 8979,
+      applicant_id: 8800,
+      url: window.location.href,
+      action: 'Approve',
+    })
+    setImageNo((imageNo) =>
+      imageNo === data.length - 1 ? imageNo : imageNo + 1
+    )
+  }
+
+  function Reject() {
+    acceptRejectImage({
+      image_id: data[imageNo].image_id,
+      application_id: 8979,
+      applicant_id: 8800,
+      url: window.location.href,
+      action: 'Reject',
+    })
+    setImageNo((imageNo) =>
+      imageNo === data.length - 1 ? imageNo : imageNo + 1
+    )
+  }
+
   return (
     <div className='App'>
       <div
@@ -87,22 +116,21 @@ function App() {
         >
           {data[imageNo]?.approved !== null ? (
             data[imageNo]?.approved === '0' ? (
-              <button className='btn' onClick={() => console.log('Accept')}>
-                {console.log(data[imageNo]?.approved)}
+              <button className='btn' onClick={Accept}>
                 Accept
               </button>
             ) : (
-              <button className='btn' onClick={() => console.log('Reject')}>
+              <button className='btn' onClick={Reject}>
                 {console.log(data[imageNo]?.approved)}
                 Reject
               </button>
             )
           ) : (
             <div>
-              <button className='btn' onClick={() => console.log('Accept')}>
+              <button className='btn' onClick={Accept}>
                 Accept
               </button>
-              <button className='btn' onClick={() => console.log('Reject')}>
+              <button className='btn' onClick={Reject}>
                 Reject
               </button>
             </div>
