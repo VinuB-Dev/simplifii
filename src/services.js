@@ -8,7 +8,7 @@ export async function acceptRejectImage({
   action,
 }) {
   try {
-    const response = await axios.post('https://enc5ji1zrhmo.x.pipedream.net/', {
+    const response = await axios.post('https://envgvqc6e9gl.x.pipedream.net/', {
       image_id: image_id,
       application_id: application_id,
       applicant_id: applicant_id,

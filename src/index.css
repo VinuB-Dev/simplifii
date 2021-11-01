@@ -75,6 +75,17 @@ input[type='checkbox'] {
   margin: 0 1rem;
 }
 
+.btn1 {
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
 .btn-complete {
   background-color: rgb(51, 153, 85);
   color: #fff;
