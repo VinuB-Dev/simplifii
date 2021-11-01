@@ -7,9 +7,11 @@ import Carousel from './Carousel'
 export default function Screen({ setCompleted }) {
   const [data, setData] = useState([])
   useEffect(() => {
-    axios.get('http://localhost:3000/scans').then((res) => {
-      setData(res.data)
-    })
+    axios
+      .get('https://run.mocky.io/v3/52e3a356-14be-4efa-a51e-e8560e627158')
+      .then((res) => {
+        setData(res.data.scans)
+      })
   }, [])
   const [imageNo, setImageNo] = useState(0)
   const [click, setClick] = useState(false)
